@@ -9,7 +9,7 @@ class Category extends BaseModel {
 
     public function getById($id) {
     $sql = "SELECT * FROM categories WHERE id = ?";
-    return $this->select($sql, [$id]);
+    return $this->select($sql, [$id]);// Lấy danh mục theo id
 }
 
     public function create($name) {

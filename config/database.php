@@ -5,7 +5,7 @@
 
 // Cấu hình thông tin kết nối MySQL
 $host = "localhost";      // Máy chủ MySQL (thường là localhost)
-$db_name = "petshop_db";  // Tên database bạn tạo trong phpMyAdmin
+$db_name = "petshop";  // Tên database bạn tạo trong phpMyAdmin
 $username = "root";       // Tài khoản MySQL mặc định của XAMPP
 $password = "";           // Mật khẩu (mặc định XAMPP để trống)
 
